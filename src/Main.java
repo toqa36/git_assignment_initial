@@ -4,7 +4,8 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
-			new SphereCircumference()
+			new SphereCircumference(),
+			new SumSeriesSubscriber()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
