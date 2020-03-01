@@ -10,7 +10,15 @@ import java.util.Scanner;
  * @author Dell
  */
 public class CircleCircumference {
-        static Scanner sc = new Scanner(System.in);
+   public static double CircleCircumference(double radius)
+   {
+       double circumference= Math.PI * 2*radius;
+     System.out.println( "The circumference of the circle is:"+circumference);
+     
+       return 0;
+       
+   }
+ static Scanner sc = new Scanner(System.in);
    public static void main(String args[])
    {
       System.out.print("Enter the radius: ");
@@ -18,8 +26,8 @@ public class CircleCircumference {
       double radius = sc.nextDouble();
  
      
-      double circumference= Math.PI * 2*radius;
-      System.out.println( "The circumference of the circle is:"+circumference) ;
+     CircleCircumference(radius);
+    
    }
     
 }
