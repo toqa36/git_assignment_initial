@@ -7,6 +7,6 @@ public class SumSeriesSubscriber implements ISubscriber{
         {
             output+= (i*i);
         }
-        System.out.print("The Sum Series is " + output);
+        System.out.println("The Sum Series is " + output);
     }
 }
