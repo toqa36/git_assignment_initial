@@ -1,14 +1,18 @@
 import java.util.Scanner;
 
 public class Main {
+
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
-			new Power(),
-			new SphereCircumference(),
-			new SumSeriesSubscriber(),
 			new lucas(),
+			new SphereCircumference(),
+			new Power(),
+			new SumSeriesSubscriber(),
+			new BallVolume(),
+			new CircleCircumference()
 	};
+
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
 		for (ISubscriber sub : subscribers) {
