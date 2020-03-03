@@ -1,4 +1,4 @@
-public class Power implements ISubscriber {
+public class PowerN implements ISubscriber {
     @Override
     public void notifySubscriber(String input) {
         int N = Integer.parseInt(input);
