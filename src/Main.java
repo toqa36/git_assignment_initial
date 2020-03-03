@@ -8,7 +8,8 @@ public class Main {
 			new SphereCircumference(),
 			new Power(),
 			new SumSeriesSubscriber(),
-			new BallVolume()
+			new BallVolume(),
+			new CircleCircumference()
 	};
 
 	public static void main(String[] args) {
